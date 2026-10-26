@@ -2,7 +2,7 @@
 
 Persönliches Cockpit für alle Lebensbereiche: je Projekt ein Füllstand-Balken mit Meilensteinen, dazu Fäden, Ideenbrett, Bibliothek und Takt. Eine einzige HTML-Seite, veröffentlicht als claude.ai-Artifact.
 
-**Stand:** Version 18 (26.10.2026).
+**Stand:** Version 19 (26.10.2026): Umschalter Darstellung (Automatisch, Hell, Dunkel).
 
 ## Aufbau
 - `page/index.html` – die Seite, genau so veröffentlicht (Inhalt ab `<title>`, ohne Plattform-Gerüst).
@@ -21,4 +21,4 @@ Die Daten liegen in der Datenbank der Seite (ArtifactData), nicht hier. Kein Exp
 4. Commit, Tag `vNN`.
 
 ## Nächste Schritte
-Version 19: Zerlegung in Module (`core/`, `data/`, `ui/`, `styles/`) mit Build zu einer Datei; dann die App.
+Später: Zerlegung in Module (`core/`, `data/`, `ui/`, `styles/`) mit Build zu einer Datei; dann die App.
