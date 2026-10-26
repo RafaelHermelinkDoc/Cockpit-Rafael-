@@ -1,0 +1,7 @@
+# Daten bleiben in der Datenbank der Seite, nie ins Repository
+data/
+*.json
+tools/fnt/
+tools/shots/
+tools/test*.html
+__pycache__/
